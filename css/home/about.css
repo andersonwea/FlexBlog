@@ -1,0 +1,21 @@
+.intro {
+  padding-top: 64px;
+}
+
+.intro::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: #2c70ff;
+  display: block;
+  margin-top: 64px;
+}
+
+.intro-info > h1 {
+  margin-bottom: 48px;
+}
+
+.about {
+  display: flex;
+  margin-top: 64px;
+}
