@@ -1,0 +1,39 @@
+.qualities {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 16px;
+  row-gap: 30px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.qualities-item {
+  flex: 1 1 300px;
+}
+
+.qualities-item > h2 {
+  margin-bottom: 12px;
+  color: #a4a4a4;
+  font-size: 2.25rem;
+  position: relative;
+  padding-left: 12px;
+  line-height: 1;
+}
+
+.qualities-item > h2::before {
+  content: "";
+  height: 100%;
+  width: 6px;
+  display: block;
+  background: #ae81ff;
+  position: absolute;
+  left: 0;
+}
+
+.qualities-item:nth-child(3n+2) > h2::before{
+  background: #f9265e;
+}
+
+.qualities-item:nth-child(3n+3) > h2::before {
+  background: #66d9eb;
+}
