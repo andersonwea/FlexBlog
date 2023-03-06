@@ -1,6 +1,6 @@
 # Projeto de estudo
 
-![imagem da página home do projeto](https://github.com/srandersondev/FlexBlog/blob/main/img/pages/home.png)
+![imagem da página home do projeto](https://github.com/srandersondev/FlexBlog/blob/main/img/home.png)
 
 Este é um projeto de estudo que desenvolvi com o objetivo de aprimorar minhas habilidades em CSS, mais especificamente na propriedade Flexbox. O projeto consiste em uma página web que se adapta em todas as telas, mudando seu layout através do Flexbox para que o conteúdo seja sempre legível e acessível, independentemente do dispositivo utilizado para acessar a página.
 
